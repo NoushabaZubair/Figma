@@ -1156,14 +1156,14 @@ width: 100%;
     margin-left: 8px;
 }
 
-/* Tablet */
+
 @media screen and (max-width: 992px) {
     .review-box {
         width: 48%;
     }
 }
 
-/* Mobile */
+
 @media screen and (max-width: 576px) {
     .review-heading h1 {
         font-size: 25px;
@@ -1182,7 +1182,7 @@ width: 100%;
     background-color: #fff;
 }
 
-/* Top Heading */
+
 .stories-heading {
     text-align: center;
     margin-bottom: 100px;
@@ -1200,7 +1200,6 @@ width: 100%;
     padding: 0 5px;
 }
 
-/* Main Content */
 .stories-contents {
     display: flex;
     align-items: center;
@@ -1208,7 +1207,7 @@ width: 100%;
     gap: 60px;
 }
 
-/* Images */
+
 .stories-images {
     width: 45%;
     position: relative;
@@ -1236,7 +1235,7 @@ width: 100%;
     z-index: 2;
 }
 
-/* Shop Button */
+
 .shop-button {
     position: absolute;
     bottom: 20px;
@@ -1248,7 +1247,7 @@ width: 100%;
     font-size: 18px;
 }
 
-/* Right Content */
+
 .stories-text {
     width: 50%;
 }
@@ -1273,7 +1272,7 @@ width: 100%;
     margin-bottom: 20px;
 }
 
-/* Mobile Responsive */
+
 @media (max-width: 768px) {
 
     .stories-heading h1 {
@@ -1494,14 +1493,14 @@ width: 100%;
     transition: all 0.3s ease;
 }
 
-/* CARD HOVER */
+
 .price-card:hover {
     border: 2px solid #087bea;
     transform: translateY(-7px);
     box-shadow: 0 8px 20px rgba(0, 100, 200, 0.15);
 }
 
-/* HEADING */
+
 .price-card h2 {
     font-size: 25px;
     margin: 0 0 10px;
@@ -1744,6 +1743,24 @@ background-color:#7ba3c9;
 
 .logo-row:nth-child(4) {
     opacity: 0.2;
+}
+
+@media (max-width: 768px) {
+
+    .brand-section h1 {
+        font-size: 27px;
+    }
+
+    .brand-logos {
+        width: 100%;
+    }
+
+    .logo-row {
+        gap: 12px;
+        font-size: 12px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
 
 
